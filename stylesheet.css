@@ -23,6 +23,7 @@ body {
 
 .wrappingOfEverything {
 	background-color: transparent;
+	margin: auto;
 }
 
 /* Header area */
@@ -53,8 +54,8 @@ body {
 	position: absolute;
 	background-color: black;
 	color: white;
-	min-width: 100px;
-	min-height: 60px;
+	min-width: 200px;
+	min-height: 100px;
 	z-index: 1;
 }
 
@@ -89,12 +90,39 @@ body {
 
 .leftContent #games {
 	background-color: #f7f7f7;
-	min-width: 100%;
-	height: 150px;
-	padding: 0 10px 10px 10px;
+	min-width: 1366px;
+	height: 190px;
 	border-radius: 5px;
 	border: 1px solid black;
 	box-shadow: 0 0 20px black;
+}
+
+.leftContent #games p {
+	margin: 0;
+	padding: 0;
+
+}
+
+.leftContent #gameList {
+
+}
+
+.leftContent #games #ff {
+	float: left;
+	color: #333;
+	margin-left: 40px;
+	text-align: center;
+	font-weight: 900;
+	text-shadow: 0 0 20px black;
+}
+
+.leftContent #games #mc {
+	float: left;
+	color: #333;
+	text-shadow: 0 0 20px black;
+	text-align: center;
+	font-weight: 900;
+	margin-left: 40px;
 }
 
 .leftContent article {
@@ -102,7 +130,15 @@ body {
 }
 
 .leftContent article h3 {
+	margin: 0;
+	padding: 0;
+}
 
+.leftContent article img {
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 30px;
+	background-color: #55c5ff;
 }
 
 #gameList li {
@@ -111,4 +147,48 @@ body {
 
 #gameList img {
 
+}
+
+/* Contaner under games list */
+
+.leftContainer {
+	float: left;
+	width: 800px;
+	height: 700px;
+	margin-top: 20px;
+	background-color: #f7f7f7;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 0 0 15px black;
+}
+
+.leftContainer article {
+	position: relative;
+	left: 15px;
+	top: 10px;
+}
+
+.leftContainer article h3 {
+	margin: 0;
+	padding: 0;
+}
+
+.leftContainer article p {
+	margin: 0;
+	padding: 0;
+}
+
+/* Right Content */
+
+.rightContent {
+	float: right;
+	position: relative;
+	left: -60px;
+	width: 430px;
+	height: 700px;
+	margin-top: 20px;
+	background-color: #f7f7f7;
+	box-shadow: 0 0 20px black;
+	border: 1px solid black;
+	border-radius: 5px;
 }
