@@ -1,0 +1,68 @@
+/* Everything before content :3 */;
+
+* {
+	font-family: 'Roboto Slab', serif;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-width: 1366px;
+	max-width: 1366px;
+	min-height: 768px;
+	margin: auto;
+	background: #e4fffc;
+}
+
+.wrappingOfEverything {
+	background-color: #f7f7f7;
+}
+
+/* Header area */
+
+.headerWrap {
+	margin: 0 auto;
+	min-width: 1366px;
+	min-height: 80px;
+	max-width: 1366px;
+	max-height: 80px;
+	background-image: url('_img/header.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.headerWrap header {
+
+}
+
+.navHead li {
+	list-style-type: none;
+	display: inline;
+}
+
+
+/* Content Area for Left side down */
+
+.leftContent {
+
+}
+
+.leftContent #games {
+
+}
+
+.leftContent article {
+
+}
+
+.leftContent article h3 {
+
+}
+
+#gameList li {
+	display: inline;
+}
+
+#gameList img {
+
+}
