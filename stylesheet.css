@@ -66,7 +66,7 @@ body {
 .navHead {
 	position: relative;
 	top: -10px;
-	left: 130px;
+	left: 1000px;
 }
 
 .navHead li {
@@ -157,10 +157,13 @@ body {
 	border-radius: 10px;
 	box-shadow: 0 0 15px black;
 	opacity: 0.8;
+	overflow: scroll;
 }
 
 .leftContainer article {
 	position: relative;
+	margin: 10px 0 0 0;
+	padding: 0 10px 0 10px;
 	width: 90%;
 	left: 15px;
 	top: 10px;
@@ -174,6 +177,7 @@ body {
 
 .time {
 	font-size: .8em;
+	font-weight: bolder;
 }
 
 .leftContainer article p {
