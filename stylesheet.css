@@ -1,7 +1,7 @@
 /* Everything before content :3 */;
 
 * {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Play', sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -137,16 +137,12 @@ body {
 .leftContent article img {
 	margin-top: 10px;
 	padding: 10px;
-	border-radius: 30px;
+	border-radius: 20px;
 	background-color: #55c5ff;
 }
 
 #gameList li {
 	display: inline;
-}
-
-#gameList img {
-
 }
 
 /* Contaner under games list */
@@ -156,14 +152,16 @@ body {
 	width: 800px;
 	height: 700px;
 	margin-top: 20px;
-	background-color: #f7f7f7;
+	background-color: #c9e5fb;
 	border: 1px solid black;
 	border-radius: 10px;
 	box-shadow: 0 0 15px black;
+	opacity: 0.8;
 }
 
 .leftContainer article {
 	position: relative;
+	width: 90%;
 	left: 15px;
 	top: 10px;
 }
@@ -171,11 +169,23 @@ body {
 .leftContainer article h3 {
 	margin: 0;
 	padding: 0;
+	font-size: 2em;
+}
+
+.time {
+	font-size: .8em;
 }
 
 .leftContainer article p {
 	margin: 0;
+	margin-top: 5px;
 	padding: 0;
+	text-align: justify;
+	font-size: 1.3em;
+}
+
+.leftContainer article p:nth-child(3) {
+	margin-top: 15px;
 }
 
 /* Right Content */
