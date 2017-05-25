@@ -26,6 +26,11 @@ body {
 	margin: auto;
 }
 
+a {
+	text-decoration: none;
+	font-weight: 700;
+}
+
 /* Header area */
 
 .headerWrap {
@@ -65,8 +70,8 @@ body {
 
 .navHead {
 	position: relative;
-	top: -10px;
-	left: 1000px;
+	top: -32px;
+	left: 840px;
 }
 
 .navHead li {
@@ -74,10 +79,24 @@ body {
 	display: inline;
 	background-color:#33ccff;
 	color: #f7f7f7;
+	font-size: 1.4em;
 	text-shadow: 0 0 5px black;
-	padding: 10px;
+	padding: 25px;
 	border-left: 1px solid #00FFFF;
 	border-right: 1px solid #3333FF;
+}
+
+.navHead a:link, .navHead a:visited {
+	color: #ffccff;
+}
+
+.navHead li:hover {
+	background-color: #ff99ff;
+	color: #66ccff;
+}
+
+.navHead a:hover {
+	color: #66ccff;
 }
 
 
