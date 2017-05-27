@@ -15,10 +15,6 @@ body {
 	margin: auto;
 	width: 1366px;
 	background-color: #d3d3d3;
-	/*background-image: url('_img/bg1.png');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;*/
 
 }
 
@@ -63,10 +59,11 @@ a {
 
 .headerWrap header {
 	position: relative;
+	width: 50%;
 	top: 20px;
 	margin: 0 0 0 90px;
 	width: auto;
-	overflow: scroll;
+	overflow: hidden;
 }
 
 .headerWrap header h1 {
@@ -86,8 +83,8 @@ a {
 	background-color: #55c5ff;
 	border: 2px solid black;
 	color: white;
-	top: 50px;
-	right: 10px;
+	top: 49px;
+	right: 0px;
 	min-width: 200px;
 	min-height: 100px;
 	padding: 0 10px;
@@ -111,7 +108,7 @@ a {
 .navHead {
 	position: relative;
 	top: -10px;
-	left: 840px;
+	left: 835px;
 }
 
 .navHead li {
@@ -223,6 +220,7 @@ a {
 	box-shadow: 0 0 15px black;
 	opacity: 0.8;
 	overflow: scroll;
+	overflow-x: hidden;
 }
 
 .leftContainer article {
