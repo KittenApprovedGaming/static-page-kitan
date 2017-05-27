@@ -65,7 +65,8 @@ a {
 	position: relative;
 	top: 20px;
 	margin: 0 0 0 90px;
-	width: 20%;
+	width: auto;
+	overflow: scroll;
 }
 
 .headerWrap header h1 {
@@ -82,11 +83,25 @@ a {
 .navDropContent {
 	display: none;
 	position: absolute;
-	background-color: black;
+	background-color: #55c5ff;
+	border: 2px solid black;
 	color: white;
+	top: 50px;
+	right: 10px;
 	min-width: 200px;
 	min-height: 100px;
+	padding: 0 10px;
 	z-index: 1;
+}
+
+.navDropContent a:link, .navDropContent a:visited {
+	color: white !important;
+	font-size: 1.3em;
+	font-weight: 800;
+}
+
+.navDropContent a:hover {
+	color: #ffccff !important;
 }
 
 .navDrop:hover .navDropContent {
@@ -269,6 +284,7 @@ a {
 .rightContent aside h3 {
 	text-align: center;
 	font-size: 1.4em;
+	margin-bottom: 20px;
 }
 
 .rightContent aside li {
