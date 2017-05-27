@@ -1,4 +1,4 @@
-/* Everything before content :3 */;
+/* Everything before content :3 */
 
 * {
 	font-family: 'Play', sans-serif;
@@ -14,7 +14,7 @@ html {
 body {
 	margin: auto;
 	width: 1366px;
-	background-color: #e4fffc;
+	background-color: #d3d3d3;
 	/*background-image: url('_img/bg1.png');
 	background-position: center;
 	background-repeat: no-repeat;
@@ -26,8 +26,11 @@ body {
 	background-color: transparent;
 	background-image: url('_img/bg1.png');
 	background-repeat: no-repeat;
+	background-position: center;
 	background-size: cover;
 	background-attachment: scroll;
+	box-shadow: 0 0 150px #333;
+	border: 2px solid #1d1d1d;
 	width: auto;
 	height: 1500px;
 	min-width: 1366px;
@@ -46,9 +49,11 @@ a {
 
 .headerWrap {
 	margin: 0 auto;
-	min-width: 1366px;
+	margin-top: 30px;
+	width: 1340px;
+	min-width: 1340px;
 	min-height: 80px;
-	max-width: 1366px;
+	max-width: 1340px;
 	max-height: 80px;
 	background-image: url('_img/header.png');
 	background-repeat: no-repeat;
@@ -57,7 +62,16 @@ a {
 }
 
 .headerWrap header {
-	margin-left: 90px;
+	position: relative;
+	top: 20px;
+	margin: 0 0 0 90px;
+	width: 20%;
+}
+
+.headerWrap header h1 {
+	font-weight: bolder;
+	color: black;
+	text-shadow: 0 0 30px #f0f0f0;
 }
 
 .navDrop {
@@ -81,7 +95,7 @@ a {
 
 .navHead {
 	position: relative;
-	top: -32px;
+	top: -10px;
 	left: 840px;
 }
 
@@ -113,58 +127,64 @@ a {
 
 /* Content Area for Left side down */
 
-.leftContent {
+.centerContent {
+	background-color: #f7f7f7;
+	margin: auto;
 	margin-top: 10px;
+	width: 1300px;
+	max-width: 1300px;
+	min-width: 1300px;
+	height: 190px;
+	border-radius: 10px;
+	border: 1px solid black;
+	box-shadow: 0 0 20px black;
 	
 }
 
-.leftContent #games {
-	background-color: #f7f7f7;
-	min-width: 1366px;
-	height: 190px;
-	border-radius: 5px;
-	border: 1px solid black;
-	box-shadow: 0 0 20px black;
+.centerContent #games h3 {
+	text-align: center;
+	font-size: 1.5em;
+	color: #ff99ff;
+	text-shadow: 0 0 5px black;
 }
 
-.leftContent #games p {
+.centerContent #games p {
 	margin: 0;
 	padding: 0;
 
 }
 
-.leftContent #gameList {
-
+.centerContent #gameList {
+	margin-top: 15px;
+	font-size: 1.2em;
 }
 
-.leftContent #games #ff {
+.centerContent #games #ff {
 	float: left;
 	color: #333;
 	margin-left: 40px;
 	text-align: center;
 	font-weight: 900;
-	text-shadow: 0 0 20px black;
 }
 
-.leftContent #games #mc {
+.centerContent #games #mc {
 	float: left;
 	color: #333;
-	text-shadow: 0 0 20px black;
 	text-align: center;
 	font-weight: 900;
 	margin-left: 40px;
 }
 
-.leftContent article {
+.centerContent article {
 
 }
 
-.leftContent article h3 {
+.centerContent article h3 {
 	margin: 0;
 	padding: 0;
 }
 
-.leftContent article img {
+.centerContent article img {
 	margin-top: 10px;
 	padding: 10px;
 	border-radius: 20px;
@@ -181,7 +201,7 @@ a {
 	float: left;
 	width: 800px;
 	height: 700px;
-	margin-top: 20px;
+	margin: 20px 0 0 30px;
 	background-color: #c9e5fb;
 	border: 1px solid black;
 	border-radius: 10px;
@@ -227,7 +247,7 @@ a {
 .rightContent {
 	float: right;
 	position: relative;
-	left: -60px;
+	left: -35px;
 	width: 430px;
 	height: 700px;
 	margin-top: 20px;
