@@ -255,6 +255,10 @@ a {
 	margin-top: 15px;
 }
 
+.leftContainer article li {
+	list-style-type: none;
+}
+
 /* Right Content */
 
 .rightContent {
