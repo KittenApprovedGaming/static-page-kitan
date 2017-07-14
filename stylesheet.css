@@ -179,6 +179,14 @@ a {
 	font-weight: 900;
 }
 
+.centerContent #games #gw2 {
+	float: left;
+	color: #333;
+	text-align: center;
+	font-weight: 900;
+	margin-left: 40px;
+}
+
 .centerContent #games #mc {
 	float: left;
 	color: #333;
